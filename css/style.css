@@ -23,7 +23,7 @@ a {
   padding-left: 15px;
   padding-right: 15px;
 
-  margin: 0;
+  margin: 0 auto;
 }
 .header {
   display: flex;
@@ -88,4 +88,64 @@ address {
 .container.header-container {
   display: flex;
   justify-content: space-between;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* ---hero--- */
+.hero {
+  box-sizing: border-box;
+  background-image: url(../image/Rectangle.jpg);
+  height: 670px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1920px;
+  background-color: #757575;
+  margin: 0 auto;
+  padding-top: 170px;
+  padding-bottom: 113px;
+}
+.hero__title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.38;
+  font-family: 'Merriweather';
+  color: #ffffff;
+  margin-bottom: 80px;
+}
+.hero__button {
+  min-width: 270px;
+
+  background-color: #005fa3;
+  padding: 19px 18px;
+  font-size: 18px;
+  line-height: 1.39;
+  text-align: center;
+
+  color: #ffffff;
+  border: transparent;
+  margin-bottom: 120px;
+}
+.slider {
+  display: flex;
+  justify-content: flex-end;
+}
+.slider__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slider__button {
+  padding: 22px 22px 23px 23px;
+  border: none;
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.4);
+  width: 60px;
+  height: 60px;
+}
+.slider__item:nth-child(1) .slider__button {
+  background: rgba(255, 255, 255, 0.2);
 }

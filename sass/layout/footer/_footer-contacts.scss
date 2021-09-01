@@ -1,0 +1,47 @@
+.footer__background {
+  background-color: $secondary-color;
+  background-image: url(/image/footer.jpg);
+  padding-top: 122px;
+  padding-bottom: 140px;
+  background-size: cover;
+}
+.footer__container {
+  display: flex;
+}
+.footer-contacts__name {
+  margin-bottom: 60px;
+  font-family: Merriweather;
+  font-size: 48px;
+  line-height: 1.44;
+  color: $text-primary-lighten;
+}
+.footer-contacts__text {
+  display: block;
+  width: 445px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.39;
+
+  color: $text-primary-lighten;
+
+  margin-bottom: 80px;
+}
+.footer-contacts__list {
+  display: flex;
+  height: 30px;
+}
+.footer-contacts__item {
+  display: flex;
+  &:not(:last-child) {
+    margin-right: 40px;
+  }
+}
+.footer-contacts__link {
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 1.38;
+  color: $text-primary-lighten;
+}
+.footer-contacts__icon {
+  margin-right: 16px;
+}

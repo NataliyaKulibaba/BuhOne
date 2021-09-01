@@ -1,0 +1,19 @@
+.section {
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+.section__title {
+  font-family: Merriweather;
+  font-size: 48px;
+  line-height: 1.44;
+  color: $text-secondary;
+  margin-bottom: 102px;
+}
+.section__name {
+  line-height: 1.38;
+  color: $substrate;
+  margin-bottom: 40px;
+}
+.section__title--accent {
+  color: $acent-color;
+}

@@ -1,0 +1,19 @@
+// Base
+@import './base/normalize';
+@import './utils/variables';
+@import './base/section';
+@import './base/container';
+
+// Layot
+
+@import './layout/header/header';
+@import './layout/hero';
+@import './layout/servise';
+@import './layout/about-us';
+@import './layout/clients';
+@import './layout/reviews';
+
+// Footer
+@import './layout/footer/footer-contacts';
+@import './layout/footer/copywrite';
+@import './layout/footer/footer-form';

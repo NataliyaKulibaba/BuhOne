@@ -1,0 +1,78 @@
+.hero {
+  box-sizing: border-box;
+  background-image: url(../image/Rectangle.jpg);
+  height: 670px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1920px;
+  background-color: #757575;
+  margin: 0 auto;
+  padding-top: 170px;
+  padding-bottom: 113px;
+}
+.hero__title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.38;
+  font-family: 'Merriweather';
+  color: $text-primary-lighten;
+  margin-bottom: 80px;
+}
+.hero__button {
+  min-width: 270px;
+
+  background-color: $acent-color;
+  padding: 19px 18px;
+  font-size: 18px;
+  line-height: 1.39;
+  text-align: center;
+
+  color: $text-primary-lighten;
+  border: transparent;
+  margin-bottom: 120px;
+  transform: scale(0.9);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    transform: scale(1);
+  }
+}
+.slider {
+  display: flex;
+  justify-content: flex-end;
+}
+.slider__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slider__button {
+  padding: 22px 22px 23px 23px;
+  border: none;
+  color: $text-primary-lighten;
+  background: rgba(255, 255, 255, 0.4);
+  width: 60px;
+  height: 60px;
+  transform: scale(1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    transform: scale(1.1);
+    background-color: $acent-color;
+  }
+}
+.slider__item:nth-child(1) .slider__button {
+  background-color: rgba(255, 255, 255, 0.2);
+
+  &:hover,
+  &:focus {
+    background-color: rgba(0, 95, 163, 0.2);
+  }
+}
+.slider__icon {
+  height: 15px;
+  width: 15px;
+}
